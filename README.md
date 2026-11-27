@@ -1,19 +1,22 @@
-# YoLo · Panel de control (plantilla)
+# YoLo · Grupo 4
 
-Plantilla del TP8 de Software II: una app web súper básica para controlar el robot YoLo. Por ahora el robot está simulado: cada botón muestra el comando en la página y lo suma a la lista de últimos comandos.
+## Qué es?
+YoLo es una app web básica la cual controla a un robot con el nombre de YoLo. Con ésta app podemos mover a YoLo con botones de movimiento y visualizar el punto de vista de YoLo mediante su camara.
+Éste trabajo tambien representa el proyecto final entre Redes I y Software II.
 
-## Archivos
+## Integrantes y roles
+- Batallanos Facundo: repositorio
+- 
 
-- `index.html`: la estructura de la página.
-- `styles.css`: los estilos. Está casi vacío: el diseño lo hacés vos.
-- `app.js`: el comportamiento de los botones.
+## Esquema de red
+![Esquema de red](img/esquema-red.png)
 
-## Cómo verla
+## Instalación
+Requisitos, `npm install` y extensiones de VS Code.
+
+## Cómo se usa
 
 Abrí la carpeta en VS Code, clic derecho sobre `index.html` → **Open with Live Server**.
 
-## Qué podés cambiar y qué no
-
-- **Sí:** todo el HTML (textos, etiquetas, orden, imágenes, enlaces) y todo el CSS. El recuadro `camara` es el lugar del video del robot en el TP final: podés moverlo y darle estilo.
-- **No:** los `id` (`estado`, `historial`, `controles`), los atributos `data-comando` de los botones ni la línea `<script src="app.js">`. El JavaScript los usa: si los borrás o los cambiás, los botones dejan de funcionar.
-- `app.js` no se modifica en este TP.
+## Captura
+![La app funcionando](img/captura.png)
