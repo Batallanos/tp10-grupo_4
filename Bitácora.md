@@ -4,4 +4,9 @@
 - El trello junto con las actividades a organizar.
 
 # Día 2
-##
+## Se añadio
+- La descripción de YoLo junto y que hace.
+
+## Se inicio
+- Comienzo del Readme
+- Instrucción de instalación de YoLo
